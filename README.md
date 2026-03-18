@@ -74,7 +74,7 @@ Poiché i dati sono conservati localmente, l’utente può cancellarli in qualsi
 
 Per qualsiasi richiesta relativa alla privacy:
 
-Email: [INSERISCI EMAIL]
+Email: beppe.apps@gmail.com
 
 ---
 
