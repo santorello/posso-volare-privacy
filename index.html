@@ -1,86 +1,344 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Privacy Policy - Posso Volare?</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Posso Volare?</title>
+  <meta
+    name="description"
+    content="Privacy Policy, disclaimer operativo, fonti ufficiali e fonti dati dell'app Posso Volare?"
+  />
   <style>
+    :root {
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --accent: #0f62fe;
+      --accent-soft: #eaf2ff;
+      --warning-bg: #fff8e6;
+      --warning-border: #f4c542;
+      --ok-bg: #eefaf1;
+      --ok-border: #55b36a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
-      color: #333;
     }
-    h1, h2 {
-      color: #0b5ed7;
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
     }
-    hr {
-      margin: 30px 0;
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 36px;
+      font-size: 1.35rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      margin-top: 24px;
+      font-size: 1.05rem;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .intro-box {
+      background: var(--accent-soft);
+      border: 1px solid #cfe0ff;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 24px 0;
+    }
+
+    .warning-box {
+      background: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 24px 0;
+    }
+
+    .info-box {
+      background: var(--ok-bg);
+      border: 1px solid var(--ok-border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 24px 0;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <main class="card">
+      <h1>Privacy Policy – Posso Volare?</h1>
+      <p class="muted"><strong>Ultimo aggiornamento:</strong> Aprile 2026</p>
 
-<h1>Privacy Policy – Posso Volare?</h1>
-<p><strong>Ultimo aggiornamento:</strong> Marzo 2026</p>
+      <div class="intro-box">
+        <p>
+          L'applicazione <strong>"Posso Volare?"</strong> è progettata per fornire un
+          supporto informativo ai piloti UAS (droni) nella valutazione preliminare
+          delle condizioni di volo.
+        </p>
+        <p>
+          <strong>Posso Volare? non è un’app governativa, non è affiliata a enti pubblici e non rappresenta autorità aeronautiche o istituzioni.</strong>
+        </p>
+      </div>
 
-<p>L'applicazione "Posso Volare?" è progettata per fornire un supporto informativo ai piloti UAS (droni) nella valutazione delle condizioni di volo.</p>
+      <div class="warning-box">
+        <p>
+          L’app non sostituisce in alcun modo le fonti ufficiali, la normativa vigente,
+          eventuali NOTAM, restrizioni temporanee, autorizzazioni necessarie o la
+          responsabilità operativa del pilota.
+        </p>
+        <p>
+          Le indicazioni mostrate nell’app, inclusi eventuali stati come
+          <strong>GO / CAUTION / NO-GO</strong>, hanno finalità esclusivamente
+          <strong>informativa e di supporto decisionale</strong>.
+          La verifica finale della legalità, sicurezza e operatività del volo resta
+          sempre in capo al pilota.
+        </p>
+      </div>
 
-<p>L'app non sostituisce le fonti ufficiali (D-Flight, ENAC, EASA, NOTAM) né la responsabilità operativa del pilota.</p>
+      <h2>1. Dati raccolti</h2>
+      <p>L'app può utilizzare i seguenti dati:</p>
+      <ul>
+        <li>
+          <strong>Posizione geografica (GPS)</strong>, utilizzata esclusivamente per
+          determinare le condizioni operative di volo nella zona selezionata
+        </li>
+        <li>
+          <strong>Dati tecnici anonimi</strong> (ad esempio errori o crash), al solo
+          fine di migliorare stabilità, affidabilità e qualità del servizio
+        </li>
+      </ul>
+      <p>
+        L'app <strong>non raccoglie dati personali identificativi</strong> come nome,
+        email o numero di telefono, salvo i casi in cui l’utente decida volontariamente
+        di contattare lo sviluppatore tramite i recapiti indicati in questa pagina.
+      </p>
 
-<hr>
+      <h2>2. Utilizzo dei dati</h2>
+      <p>I dati vengono utilizzati esclusivamente per:</p>
+      <ul>
+        <li>calcolare un’indicazione operativa sintetica (<strong>GO / CAUTION / NO-GO</strong>)</li>
+        <li>fornire informazioni di supporto relative a meteo, spazio aereo, traffico aereo e sicurezza del volo</li>
+        <li>migliorare prestazioni, stabilità e affidabilità dell'app</li>
+      </ul>
 
-<h2>1. Dati raccolti</h2>
-<ul>
-<li>Posizione geografica (GPS), utilizzata esclusivamente per determinare le condizioni operative di volo</li>
-<li>Dati tecnici anonimi (es. crash), per migliorare la stabilità</li>
-</ul>
+      <h2>3. Archiviazione dei dati</h2>
+      <ul>
+        <li>
+          I dati dell’utente (ad esempio profilo pilota, droni, checklist, documenti e
+          configurazioni) sono salvati localmente sul dispositivo
+        </li>
+        <li>L'app non archivia dati personali su server remoti propri</li>
+      </ul>
 
-<p>L'app NON raccoglie dati personali identificativi (nome, email, numero di telefono).</p>
+      <h2>4. Condivisione dei dati</h2>
+      <p>
+        L'app non vende e non condivide dati personali identificativi con terze parti.
+      </p>
+      <p>
+        Per il funzionamento di alcune funzionalità, l’app può interrogare servizi
+        esterni che ricevono esclusivamente i dati tecnici necessari a restituire il
+        servizio richiesto dall’utente.
+      </p>
 
-<h2>2. Utilizzo dei dati</h2>
-<ul>
-<li>Calcolo del verdetto operativo (GO / CAUTION / NO-GO)</li>
-<li>Fornitura di informazioni su meteo, spazio aereo e sicurezza</li>
-<li>Miglioramento delle prestazioni dell'app</li>
-</ul>
+      <h2>5. Fonti dati e servizi esterni utilizzati</h2>
+      <p>Tra i servizi e le fonti dati utilizzati possono rientrare:</p>
+      <ul>
+        <li>
+          <strong>Open-Meteo</strong> – dati meteo e vento<br />
+          <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer">https://open-meteo.com</a>
+        </li>
+        <li>
+          <strong>OpenSky Network</strong> – traffico aereo<br />
+          <a href="https://opensky-network.org" target="_blank" rel="noopener noreferrer">https://opensky-network.org</a>
+        </li>
+        <li>
+          <strong>OpenStreetMap / Nominatim</strong> – mappa, geocodifica e ricerca località<br />
+          <a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer">https://www.openstreetmap.org</a><br />
+          <a href="https://nominatim.org" target="_blank" rel="noopener noreferrer">https://nominatim.org</a>
+        </li>
+        <li>
+          <strong>Open-Elevation</strong> – altitudine<br />
+          <a href="https://open-elevation.com" target="_blank" rel="noopener noreferrer">https://open-elevation.com</a>
+        </li>
+        <li>
+          <strong>NOAA / Space Weather Prediction Center</strong> – indice geomagnetico Kp<br />
+          <a href="https://www.swpc.noaa.gov" target="_blank" rel="noopener noreferrer">https://www.swpc.noaa.gov</a>
+        </li>
+      </ul>
+      <p class="muted">
+        Tali servizi operano secondo le rispettive policy e condizioni d’uso.
+      </p>
 
-<h2>3. Archiviazione dei dati</h2>
-<ul>
-<li>I dati sono salvati localmente sul dispositivo</li>
-<li>Nessun dato personale viene archiviato su server remoti</li>
-</ul>
+      <h2>6. Fonti ufficiali di riferimento</h2>
+      <p>
+        Per ogni operazione di volo si raccomanda sempre la verifica diretta delle fonti
+        ufficiali/originali applicabili, tra cui:
+      </p>
+      <ul>
+        <li>
+          <strong>ENAC</strong> – Ente Nazionale per l’Aviazione Civile<br />
+          <a href="https://www.enac.gov.it" target="_blank" rel="noopener noreferrer">https://www.enac.gov.it</a>
+        </li>
+        <li>
+          <strong>D-Flight</strong> – piattaforma di riferimento per informazioni operative UAS in Italia<br />
+          <a href="https://www.d-flight.it" target="_blank" rel="noopener noreferrer">https://www.d-flight.it</a>
+        </li>
+        <li>
+          <strong>EASA</strong> – European Union Aviation Safety Agency<br />
+          <a href="https://www.easa.europa.eu" target="_blank" rel="noopener noreferrer">https://www.easa.europa.eu</a>
+        </li>
+      </ul>
+      <p>
+        L’app può mostrare informazioni elaborate o riepilogate per facilitarne la
+        consultazione, ma tali informazioni <strong>non sostituiscono</strong> le
+        pubblicazioni ufficiali, i NOTAM, le restrizioni temporanee, le autorizzazioni
+        richieste o la valutazione concreta dello scenario operativo.
+      </p>
 
-<h2>4. Condivisione dei dati</h2>
-<p>L'app non condivide dati personali con terze parti.</p>
+      <h2>7. Limitazioni del servizio</h2>
+      <p>
+        Le informazioni mostrate nell’app possono non essere complete, non essere
+        aggiornate in tempo reale o non essere sufficienti, da sole, per determinare la
+        possibilità di effettuare un volo.
+      </p>
+      <p>L’utente deve sempre verificare autonomamente:</p>
+      <ul>
+        <li>le fonti ufficiali</li>
+        <li>le eventuali restrizioni temporanee</li>
+        <li>le autorizzazioni applicabili</li>
+        <li>le condizioni reali sul posto</li>
+        <li>la normativa riferita al proprio scenario operativo</li>
+      </ul>
 
-<p>Servizi esterni utilizzati:</p>
-<ul>
-<li>Open-Meteo</li>
-<li>OpenSky Network</li>
-<li>OpenStreetMap / Nominatim</li>
-<li>Open-Elevation</li>
-</ul>
+      <h2>8. Sicurezza dei dati</h2>
+      <p>
+        Le comunicazioni con i servizi esterni avvengono tramite connessioni sicure
+        (<strong>HTTPS</strong>), ove supportate dai provider utilizzati.
+      </p>
 
-<h2>5. Sicurezza</h2>
-<p>Le comunicazioni avvengono tramite connessioni sicure (HTTPS).</p>
+      <h2>9. Permessi dell’app</h2>
+      <p>L'app può richiedere accesso a:</p>
+      <ul>
+        <li><strong>Posizione</strong> → per determinare le condizioni operative di volo nella zona selezionata</li>
+        <li><strong>Archiviazione locale</strong> → per salvare documenti, configurazioni e dati dell’utente sul dispositivo</li>
+      </ul>
+      <p>
+        I permessi vengono richiesti solo quando necessari al funzionamento delle
+        specifiche funzionalità dell’app.
+      </p>
 
-<h2>6. Permessi</h2>
-<ul>
-<li>Posizione → per determinare le condizioni di volo</li>
-<li>Archiviazione → per salvare documenti e configurazioni</li>
-</ul>
+      <h2>10. Diritti dell’utente</h2>
+      <p>
+        Poiché i dati principali dell’app sono conservati localmente sul dispositivo,
+        l’utente può cancellarli in qualsiasi momento:
+      </p>
+      <ul>
+        <li>disinstallando l'app</li>
+        <li>eliminando i dati dell'app dalle impostazioni del dispositivo</li>
+      </ul>
 
-<h2>7. Diritti dell’utente</h2>
-<p>I dati possono essere cancellati disinstallando l’app.</p>
+      <h2>11. Contatti</h2>
+      <p>Per qualsiasi richiesta relativa a privacy o funzionamento dell’app:</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:beppe.apps@gmail.com">beppe.apps@gmail.com</a>
+      </p>
 
-<h2>8. Contatti</h2>
-<p>Email: beppe.apps@gmail.com </p>
+      <h2>12. Modifiche alla presente policy</h2>
+      <p>
+        La presente privacy policy può essere aggiornata in futuro per riflettere
+        modifiche funzionali, normative o tecniche dell’app.
+        Eventuali aggiornamenti saranno pubblicati su questa pagina con indicazione
+        della data di ultimo aggiornamento.
+      </p>
 
-<h2>9. Modifiche</h2>
-<p>La policy può essere aggiornata nel tempo.</p>
+      <div class="info-box">
+        <p>
+          Per usare l’app in modo corretto, consulta sempre le fonti ufficiali prima di
+          ogni volo e considera le informazioni mostrate come supporto preliminare, non
+          come autorizzazione automatica al decollo.
+        </p>
+      </div>
 
+      <div class="footer">
+        <p>© Posso Volare? – Pagina informativa su privacy, disclaimer operativo e fonti dati.</p>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
